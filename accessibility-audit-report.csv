@@ -1,0 +1,6 @@
+issue_id,page_or_component,wcag_reference,evidence,severity,user_impact,recommended_fix,owner,status
+WEB-001,Header Navigation,2.1.1 Keyboard,Dropdown menus cannot be opened using the Enter or Space keys.,High,Keyboard-only users cannot access sub-pages.,Implement keyboard event listeners for dropdowns and ensure semantic button usage.,Student,Open
+WEB-002,Contact Form,3.3.2 Labels or Instructions,The 'Phone Number' input field lacks a connected <label> tag.,High,Screen reader users do not hear what the input is for.,Add a <label> with a 'for' attribute matching the input 'id'.,Student,Open
+WEB-003,Homepage Banner,1.4.3 Contrast (Minimum),The white text on light blue background has a contrast ratio of 2.1:1.,Medium,Users with low vision cannot read the banner text.,Change the background color to a darker shade to meet the 4.5:1 ratio.,Student,Open
+WEB-004,Footer,1.1.1 Non-text Content,The social media icons do not have alt text or aria-labels.,Medium,Screen reader users hear generic 'image' or file names.,Add 'aria-label' or visually hidden text to the icon links.,Student,Open
+WEB-005,Main Content Links,2.4.7 Focus Visible,Inline links do not have a visible focus outline when tabbed into.,Medium,Keyboard users cannot see which element currently has focus.,Add a CSS ':focus-visible' state with a clear outline.,Student,Open

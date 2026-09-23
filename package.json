@@ -1,0 +1,14 @@
+{
+  "name": "public-service-audit-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo project skeleton for an accessible full-stack application",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "start": "npm run start --workspaces",
+    "test": "npm run test --workspaces"
+  }
+}
